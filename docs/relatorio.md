@@ -157,7 +157,24 @@ Esse comportamento evidencia limitações estruturais da política FIFO e refor�
 
 ---
 
-# 8. Conclusão
+## 8. Validação com Valgrind
+
+O simulador foi validado utilizando a ferramenta Valgrind para detecção de vazamentos de memória e acessos inválidos.
+
+O teste foi executado através do comando:
+
+valgrind --leak-check=full ./edge-mem-profiler lru tests/trace_teste.log 4 128
+
+Os resultados indicaram:
+
+- 0 bytes em uso ao final da execução;
+- ausência de vazamentos de memória;
+- nenhuma ocorrência de acesso inválido.
+
+Dessa forma, a implementação atende aos requisitos de gerenciamento seguro de memória exigidos para aplicações em linguagem C.
+
+---
+# 9. Conclusão
 
 O desenvolvimento do Edge Memory Profiler permitiu aplicar conceitos fundamentais de Sistemas Operacionais relacionados ao gerenciamento de memória virtual. A implementação das políticas FIFO, LRU e Random possibilitou comparar diferentes estratégias de substituição de páginas sob condições de memória limitada.
 
