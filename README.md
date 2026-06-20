@@ -230,7 +230,3 @@ O simulador pode ser utilizado para estudar o comportamento da memória virtual 
 * KERRISK, Michael. The Linux Programming Interface.
 
 ---
-
-## Autor
-
-Projeto desenvolvido para a disciplina DCC403 – Projeto Final.
