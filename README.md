@@ -1,5 +1,3 @@
-# FP_DCC403_Tema_4_UFRR_JoseCarvalhoNeto_2026# FP_DCC403_Tema_4_UFRR
-
 # Edge Memory Profiler
 
 ## Simulador de Memória Virtual para Dispositivos de Borda
