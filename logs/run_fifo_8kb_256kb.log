@@ -1,0 +1,19 @@
+Run: Tue Jun 23 14:32:36 UTC 2026
+Policy: fifo  Page: 8KB  Physical: 256KB
+
+Executando Edge-AI Memory Performance Profiler...
+==================================================
+Configuracao do Sistema de Borda:
+Tecnica de Reposicao (Polisub): fifo
+Arquivo de Traco Processado: tests/trace_teste.log
+Tamanho de Cada Pagina/Quadro: 8 KB
+Capacidade de Memoria Fisica: 256 KB (32 quadros)
+--------------------------------------------------
+Resultados Metricos da Simulacao:
+Total de Acessos Computados: 10
+Ocorrencias de Page Faults (Lidas): 5
+Paginas Sujas Evictadas (Escritas): 0
+Taxa de Page Faults: 50.00%
+==================================================
+Simulacao Concluida com Sucesso.
+

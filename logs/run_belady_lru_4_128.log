@@ -1,0 +1,18 @@
+Run: Tue Jun 23 14:29:13 UTC 2026
+
+Executando Edge-AI Memory Performance Profiler...
+==================================================
+Configuracao do Sistema de Borda:
+Tecnica de Reposicao (Polisub): lru
+Arquivo de Traco Processado: tests/belady.log
+Tamanho de Cada Pagina/Quadro: 4 KB
+Capacidade de Memoria Fisica: 128 KB (32 quadros)
+--------------------------------------------------
+Resultados Metricos da Simulacao:
+Total de Acessos Computados: 12
+Ocorrencias de Page Faults (Lidas): 5
+Paginas Sujas Evictadas (Escritas): 0
+Taxa de Page Faults: 41.67%
+==================================================
+Simulacao Concluida com Sucesso.
+
